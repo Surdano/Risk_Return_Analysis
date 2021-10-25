@@ -5,7 +5,7 @@
 ---
 This program utilizes Jupyter Lab to visualize performance history metrics from four large hedge funds and the S&P 500. The metrics being visualized in this program are: Daily Performance, Risk, Volitlity, Sharpe Ratio and Beta Measurements. 
 
-At the end of the analysis we take the two funds with the highest risk-to-return profiles and compare them against each other and the S&P 500. Once determined, a recommendation is made for which fund is the better investment.
+At the end of the analysis the two funds with the highest risk-to-return profiles are compared against each other. Once compared, a recommendation is made for which fund a firm should invest in.
 
 ---
 ## Technologies
@@ -29,12 +29,12 @@ import numpy as np
 ---
 ## Usage
 
-Launch Jupyter Lab with the Jupyter Notebook file:
+Launch Jupyter Lab with the Python notebook file:
 ```python
 risk_return_analysis.ipynb
 ```
 
-Once the program is launched and the dependencies are run, the user will start seeing the calculated metrics being ploted as such:
+Once the program is launched and the user will start seeing the calculated metrics being ploted as such:
 
 ### Daily Returns:
 ![Screen shot of daily returns](https://user-images.githubusercontent.com/89755088/138616603-3c5e0581-b90d-4a0c-a3ac-2f4b4ca27fd1.png)
@@ -44,7 +44,7 @@ Once the program is launched and the dependencies are run, the user will start s
 
 ---
 ## Analysis
-The complete analysis of the program shows that Berkshire Hathaway has the highest risk-return profile of all four funds. It also shows the highest cumulative return of the four while providing less risk than the S&P 500.
+The complete analysis of the program shows that Berkshire Hathaway has the highest risk-return profile of all four funds and should be the fund a firm invests in over the others. Additionally, it also shows the highest cumulative return of the four while providing less risk than the S&P 500.
 
 ---
 ## Contributors
